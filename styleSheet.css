@@ -1,12 +1,27 @@
 body {
-  background-color: #93A9D1
+  background-color: #DECDBE
 }
 
 h1 {
   font-family: courier;
 }
 
-a:link { color: #F7CACA } /* for unvisited links */
-a:visited { color: #F7CACA } /* for visited links */
-a:hover { color: #FF6F61 } /* when mouse is over link */
-a:active { color: #D94F70 } /* when link is clicked */
+h3 {
+  font-family: courier;
+}
+
+p {
+  font-family: courier;
+}
+
+a.first:link, a.first:visited { color: #D5419E } /* for unvisited links and visited */
+a.first:hover { color: #FF6F61 } /* when mouse is over link */
+a.first:active { color: #D94F70 } /* when link is clicked */
+
+a.second:link, a.second:visited { color: #00BCE1 } /* for unvisited links and visited */
+a.second:hover { color: #0094D5 } /* when mouse is over link */
+a.second:active { color: #006EB3 } /* when link is clicked */
+
+a:link, a:visited { color: #B27BC4 } /* for unvisited links and visited */
+a:hover { color: #8E51A8 } /* when mouse is over link */
+a:active { color: #61007D } /* when link is clicked */
