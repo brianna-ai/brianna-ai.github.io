@@ -1,0 +1,12 @@
+body {
+  background-color: #93A9D1
+}
+
+h1 {
+  font-family: courier;
+}
+
+a:link { color: #F7CACA } /* for unvisited links */
+a:visited { color: #F7CACA } /* for visited links */
+a:hover { color: #FF6F61 } /* when mouse is over link */
+a:active { color: #D94F70 } /* when link is clicked */
