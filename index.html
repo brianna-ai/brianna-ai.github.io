@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="styleSheet.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
 <h1>Hello, World!</h1>
 
 <p>Welcome to my page! Here are some test links. Content will be added later.</p>
-<h3><a class="first" href="linked.html">First link</a>!	<a class="second" href="second.html">Second link</a>!
-</h3>
+<h3><a class="first" href="linked.html">First link</a>	<a class="second" href="second.html">Second link</a></h3>
+
+<h3 onclick="show()" class="testing"> 
+Third 'link'</h3>
+
+<div id="third">
+<p> Not an actual link! </p>
+</div>
+
+<script>
+function show() {
+  document.getElementById("third").style.display = "block";
+}
+</script>
+
 </body>
 </html>
