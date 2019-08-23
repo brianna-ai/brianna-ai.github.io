@@ -1,2 +1,2 @@
 # brianna-ai.github.io
-Utilizing HTML and CSS to build a website from scratch.
+Utilizing HTML, CSS, and JavaScript to build a website from scratch.
