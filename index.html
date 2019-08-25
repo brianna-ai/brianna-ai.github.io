@@ -8,20 +8,46 @@
 <h1>Hello, World!</h1>
 
 <p>Welcome to my page! Here are some test links. Content will be added later.</p>
+
+<!-- Modifying
 <h3><a class="first" href="linked.html">First link</a>	<a class="second" href="second.html">Second link</a></h3>
 
-<h3 onclick="show()" class="testing"> 
-Third 'link'</h3>
+<div>
+<h3 id="thirdtab" onclick="show(id)" class="thirdtab"> 
+Third tab</h3> <h3 id="fourthtab" onclick="show(id)" class="fourthtab"> 
+Fourth tab</h3>
+</div>
+-->
 
-<div id="third">
-<p> Not an actual link! </p>
+<div>
+  <span id="firsttab" onclick="show(id)" class="firsttab"> 
+First tab</span> 
+  <span id="secondtab" onclick="show(id)" class="secondtab"> 
+Second tab</span>
+  <span id="thirdtab" onclick="show(id)" class="thirdtab"> 
+Third tab</span> 
+  <span id="fourthtab" onclick="show(id)" class="fourthtab"> 
+Fourth tab</span>
 </div>
 
-<script>
-function show() {
-  document.getElementById("third").style.display = "block";
-}
-</script>
+
+<div id="first">
+  <p> Not an actual link! </p>
+</div>
+
+<div id="second">
+  <p> Also not a link! </p>
+</div>
+
+<div id="third">
+  <p> Not an actual link! </p>
+</div>
+
+<div id="fourth">
+  <p> Also not a link! </p>
+</div>
+
+<script src="scripts/tabs.js"></script>
 
 </body>
 </html>

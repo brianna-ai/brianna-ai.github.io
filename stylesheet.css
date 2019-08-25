@@ -2,29 +2,32 @@ body {
   background-color: #DECDBE
 }
 
-#third {
+*
+{
+  font-family: courier;
+}
+
+#first, #second, #third, #fourth {
   display: none;
-}
-
-h1 {
-  font-family: courier;
-}
-
-h3 {
-  font-family: courier;
-}
-
-p {
-  font-family: courier;
 }
 
 a {
   text-decoration: none;
 }
 
-h3.testing:hover { color: #FEDD00 } /* when mouse is over link */
-h3.testing:active { color: #F1C400 } /* when link is clicked */
+span.firsttab:hover { color: #FF6F61 } /* when mouse is over link */
+span.firsttab:active { color: #D94F70 } /* when link is clicked */
 
+span.secondtab:hover { color: #0094D5 } /* when mouse is over link */
+span.secondtab:active { color: #006EB3 } /* when link is clicked */
+
+span.thirdtab:hover { color: #FEDD00 } /* when mouse is over link */
+span.thirdtab:active { color: #F1C400 } /* when link is clicked */
+
+span.fourthtab:hover { color: #00B2A2 } /* when mouse is over link */
+span.fourthtab:active { color: #00939D } /* when link is clicked */
+
+/*
 // a.first:link, a.first:visited { color: #D5419E } /* for unvisited links and visited */
 a.first:hover { color: #FF6F61 } /* when mouse is over link */
 a.first:active { color: #D94F70 } /* when link is clicked */
@@ -32,7 +35,7 @@ a.first:active { color: #D94F70 } /* when link is clicked */
 // a.second:link, a.second:visited { color: #00BCE1 } /* for unvisited links and visited */
 a.second:hover { color: #0094D5 } /* when mouse is over link */
 a.second:active { color: #006EB3 } /* when link is clicked */
-
+*/
  a:link, a:visited { color: black } /* for unvisited links and visited */
 a:hover { color: #8E51A8 } /* when mouse is over link */
 a:active { color: #61007D } /* when link is clicked */
