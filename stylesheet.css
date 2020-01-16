@@ -1,68 +1,33 @@
 body {
-  background: url("images/grid.png");
+  font-family: "Lato", sans-serif;
 }
 
-*
-{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.1em;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 220px;
 }
 
-#first, #second, #third, #fourth {
-  display: none;
-}
-
-#firsttab, #secondtab, #thirdtab, #fourthtab {
-  font-size: 1em;
-  font-weight: bold;
-}
-
-#intro {
-  border-style: dotted double double dashed;
-}
-
-h1 {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 2em;
-}
-
-
-div {
-  margin-left: 20%;
-  max-width: 60%;
-}
-
-div.intro {
-  margin-left: 0;
-  max-width: 60%;
-//  border: 3px dotted double double dashed;
-}
-
-a {
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
-span.firsttab:hover { color: #FF6F61 } /* when mouse is over link */
-span.firsttab:active { color: #D94F70 } /* when link is clicked */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-span.secondtab:hover { color: #0094D5 } /* when mouse is over link */
-span.secondtab:active { color: #006EB3 } /* when link is clicked */
-
-span.thirdtab:hover { color: #FEDD00 } /* when mouse is over link */
-span.thirdtab:active { color: #F1C400 } /* when link is clicked */
-
-span.fourthtab:hover { color: #00B2A2 } /* when mouse is over link */
-span.fourthtab:active { color: #00939D } /* when link is clicked */
-
-/*
-// a.first:link, a.first:visited { color: #D5419E } /* for unvisited links and visited */
-a.first:hover { color: #FF6F61 } /* when mouse is over link */
-a.first:active { color: #D94F70 } /* when link is clicked */
-
-// a.second:link, a.second:visited { color: #00BCE1 } /* for unvisited links and visited */
-a.second:hover { color: #0094D5 } /* when mouse is over link */
-a.second:active { color: #006EB3 } /* when link is clicked */
-*/
- a:link, a:visited { color: black } /* for unvisited links and visited */
-a:hover { color: #8E51A8 } /* when mouse is over link */
-a:active { color: #61007D } /* when link is clicked */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
