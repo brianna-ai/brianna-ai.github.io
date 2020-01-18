@@ -3,16 +3,6 @@
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<script type="text/javascript">
-      /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-      (function(d, m){
-        var kommunicateSettings = {"appId":"1cbedccfef2c0f7dc0b3fc5dccdda7581","popupWidget":true,"automaticChatOpenOnNavigation":true};
-        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-        window.kommunicate = m; m._globals = kommunicateSettings;
-      })(document, window.kommunicate || {});
-  </script>
 <body>
 
 <div class="sidenav">
@@ -26,16 +16,38 @@
 <div class="main">
   <h2>Biquadris</h2>
     <h5>CS246</h5>
-    <p>This is a 2P Tetris-based game designed and coded in C++ with OOP and various design principles.</p>
+    <ul>
+      <li>Designed OOP Tetris-based two player game in C++ using VSCode and git using observer pattern, factory design patterm, MVC, RAII, and XWindow
+      <li>Programmed display terminal, special effects, and main function
+      <li>Implemented varying level difficulties with the factory design pattern
+    </ul>
   <h2>COptimism</h2>
     <h5>StarterHacks</h5>
-    <p></p>
+    <ul>
+      <li>Implemented minimax algorithm for a chess bot to allow players an option to play against AI
+      <li>Programmed movements for pieces accounting for different board states to support move hinting
+      <li>Created mouse-based GUI with tkinter and Pygame for chessboard and pieces
+    </ul>
   <h2>ArmBot</h2>
-    <p></p>
+    <ul>
+      <li>Designed and programmed 3 servos to mimic an arm based on camera input in Python
+      <li>Joined servo and camera actions with OOP design 
+      <li>Implemented basic computer vision through Python to identify differences in images, allowing the arm to react in accordance to changes 
+    </ul>
   <h2>Big_5 Calculator</h2>
     <h5>AP CSP</h5>
-    <p></p>
+    <ul>
+      <li>Created a calculator in Python to find variables used in basic kinematics equations
+      <li>Implemented with OOP to solve different types of questions and variables
+    </ul>
 </div>
    
+<iframe
+    align="right"
+    width="300"
+    height="400"
+    src="https://console.dialogflow.com/api-client/demo/embedded/646a44f2-6179-4848-b7f3-f35d5226539b">
+</iframe>
+
 </body>
 </html> 
