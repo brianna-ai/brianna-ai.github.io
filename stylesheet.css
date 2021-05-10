@@ -15,7 +15,6 @@ body {
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -26,14 +25,29 @@ body {
   color: #f1f1f1;
 }
 
+.padding {
+  padding: 0px 8px 12px 8px;
+}
+
 .navicon {
     float: left;
-    color: #aaaaaa;
+    color: #818181;
     font-size: 14px;
     margin-right: 3px;
     width: 35px;
     text-align: center;
-    padding: 5px 0;
+}
+
+.navicon:hover {
+  color: #f1f1f1;
+}
+
+.selected {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+  padding: 0px 8px 12px 8px;
 }
 
 .main {
